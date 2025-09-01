@@ -1,0 +1,88 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+.logo-container {
+  position: absolute;
+  top: 80px;
+  left: 20px;
+}
+
+.logo {
+  height: 140px; 
+  /* Ajusta el tamaño a tu gusto */
+}
+
+
+
+header {
+  background: url("1.jpeg") no-repeat center center/cover;
+  height: 300px;
+  display: flex;
+  justify-content: flex; /* alinear contenido a la izquierda */
+  align-items: center;
+  text-align: center; /* alinear el texto a la izquierda */
+  color: white;
+  position: relative;
+  /*filter: brightness(80%);*/
+}
+
+header .overlay {
+  /*background-color: rgba(0, 0, 0, 0.5);*/
+  /*padding: 2rem;*/
+  margin-right: 5px;
+  margin-top: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+section.info {
+  padding: 2rem;
+  text-align: center;
+  background-image: url("foto.jpg");
+  color: white
+}
+h4 {
+  color:black;
+}
+button {
+  padding: 0.5rem 1rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #FE9A37;
+}
+
+.hidden {
+  display: none;
+}
+
+.mail-link {
+  text-decoration: none;   /* quita el subrayado */
+  color: white;          /* cambia el color (elige el que quieras) */
+  font-weight: bold;       /* opcional: negrita */
+}
+
+.mail-link:hover {
+  color: #3498db;          /* color al pasar el ratón por encima */
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #061542;
+  margin-top: 2rem;
+  color: white;
+}
+
