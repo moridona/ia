@@ -85,4 +85,24 @@ footer {
   margin-top: 2rem;
   color: white;
 }
+/* Estilo general del logo dentro del overlay */
+/* El logo entre h1 y h2 está oculto en pantallas grandes */
+/* El logo entre h1 y h2 está oculto en pantallas grandes */
+.overlay-logo {
+  display: none;
+}
+
+/* En móviles (<640px) */
+@media (max-width: 640px) {
+  .logo-container {
+    display: none; /* oculta el logo de la esquina */
+  }
+
+  .overlay-logo {
+    display: block;       /* se muestra */
+    margin: 10px auto;    /* centrado horizontal */
+    height: 80px;         /* tamaño reducido */
+  }
+}
+
 
