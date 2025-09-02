@@ -99,11 +99,12 @@ footer {
   }
 
   .overlay-logo {
-    display: block;       /* se muestra */
+    display: flex;       /* se muestra */
     margin: 10px auto;    /* centrado horizontal */
     height: 60px;         /* tamaño reducido */
   }
 }
+
 
 
 
