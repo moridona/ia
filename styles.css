@@ -101,9 +101,10 @@ footer {
   .overlay-logo {
     display: block;       /* se muestra */
     margin: 10px auto;    /* centrado horizontal */
-    height: 20px;         /* tamaño reducido */
+    height: 60px;         /* tamaño reducido */
   }
 }
+
 
 
 
